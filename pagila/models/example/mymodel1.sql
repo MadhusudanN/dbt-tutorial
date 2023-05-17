@@ -1,0 +1,1 @@
+select * from actor where last_update > '2013-05-25 12:00:00.0'
