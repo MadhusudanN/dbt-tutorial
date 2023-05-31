@@ -19,3 +19,12 @@ models:
         tests:
           - unique
           - not_null
+
+  - name: refer_seeds
+    description: "Test reference of seeds"
+    columns:
+      - name: country_name
+        description: "Acceptable values for Reference Table"
+        tests:
+          - accepted_values:
+              values: ['United States', 'Canada', 'United Kingdom']  

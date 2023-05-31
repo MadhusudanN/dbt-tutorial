@@ -1,0 +1,1 @@
+select country_name from {{ ref('country_codes') }}
