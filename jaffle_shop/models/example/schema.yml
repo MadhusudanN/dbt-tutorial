@@ -28,3 +28,12 @@ models:
         tests:
           - accepted_values:
               values: ['United States', 'Canada', 'United Kingdom']  
+
+  - name: seeds_employee_id
+    description: "Test reference of seeds"
+    columns:
+      - name: employee_id
+        description: "Acceptable values for Reference Table"
+        tests:
+          - accepted_values:
+              values: [1,2,3,4,5]

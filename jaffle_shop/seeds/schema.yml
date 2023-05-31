@@ -12,3 +12,11 @@ seeds:
         tests:
           - unique
           - not_null
+  - name: employee_ids
+    description: A lookup table which contains only employee id
+    columns:
+      - name: employee_id
+        tests:
+          - unique
+          - not_null
+      
